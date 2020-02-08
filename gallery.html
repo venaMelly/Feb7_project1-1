@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  <title>Hello, world!</title>
+
+  <style type="text/css">
+    .cards{
+     text-align: center;
+      position: relative;
+      z-index: 1;
+      margin-top:90px;
+      min-height: 400px;
+      
+    }
+   .cards .card {
+    border: 0;
+   }
+    .cards .card img{
+       
+      position: absolute;
+      width: 400px;
+      cursor: pointer;
+      left: 50%;
+      border: 1px solid blue;
+      margin-left: -100px; /* minus the half of width*/ 
+     
+    }
+
+
+
+
+  </style>
+
+</head>
+<body>
+
+<!--starting of navbar -->
+
+<nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
+  <div class="container">
+      <a href="index.html" class="navbar-brand text-warning font-weight-bold">Trak’s</a>
+      <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse justify-content-between" id="nav">
+          <ul class="navbar-nav ml-auto text-uppercase" id="mynav">
+              <li class="nav-item"><a class=" nav-link text-light font-weight-bold px-3" href="index.html">Home</a></li>
+
+              <li class="nav-item dropdown" data-toggle="dropdown"><a class="nav-link text-light text-uppercase font-weight-bold px-3 dropdown-toggle" href="burger.html">Projects</a>
+                  <div class="dropdown-menu">
+                      <a class="dropdown-item" href="burger.html">Burgers & Sandwitches </a>
+                      <a class="dropdown-item" href="index.html">Entrees</a>
+                      <a class="dropdown-item" href="burger.html">Desserts</a>
+                      <a class="dropdown-item" href="#">Drinks</a>
+                      <a class="dropdown-item" href="#">Sides</a>
+                  </div>
+              </li>
+              <li class="nav-item"><a class=" nav-link text-light font-weight-bold px-3" href="gallery.html">Gallery</a></li>
+              <li class="nav-item"><a class=" nav-link text-light font-weight-bold px-3" href="burger.html">Burger</a></li>
+              <li class="nav-item"><a class=" nav-link text-light font-weight-bold px-3" href="#">Contact Us</a></li>
+          </ul>
+      </div>
+  </div>
+</nav>
+<!--ending of navbar-->
+
+
+<!--starting photo gallery -->
+
+<div class="row text-center">
+    <h3 class="text-center text-seondary">Track's photo gallery </h3>
+    <div class="container">
+        <div class="cards text-center">
+
+            <div class="card ">
+                <img src="image/1.jpeg" alt='page one '>
+            </div>
+            <div class="card ">
+                <img src="image/3.jpg" alt='page tow'>
+            </div>
+            <div class="card ">
+                <img src="image/4.jpg" alt='page threee'>
+            </div>
+            <div class="card ">
+                <img src="image/bur1.jpg"  alt='page 4'>
+            </div>
+            <p class=" img-text text-center " >Page one</p>
+
+        </div>
+    </div>
+</div>
+
+  
+
+
+<!--starting of footer-->
+
+<footer class="clearfix">
+  <p>this is the bottom of the page </p>
+</footer>
+
+<!--ending of footer-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

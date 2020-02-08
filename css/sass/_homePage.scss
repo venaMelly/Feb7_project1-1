@@ -1,0 +1,20 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap');
+
+$backgrd: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,0.5));
+
+body{
+	overflow-x: hidden;
+	line-height: 34px;
+	font-weight: 300;
+	font-size: 18px;
+	font-family: 'Source Serif Pro', serif;
+	box-sizing: border-box;
+}
+ h1, h2, h3{
+ 	font-family: 'Bree Serif', serif;
+ }
+

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Trak's</title>
+</head>
+<style>
+    .main {
+        position: relative;
+    }
+
+    .main::before,
+    .main::after {
+        content: "";
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .main::before {
+        border-top: 1px solid blue;
+        border-bottom: 1px solid blue;
+        transform: scale(0, 1);
+
+    }
+
+    .main::after {
+        border-right: 1px solid blue;
+        border-left: 1px solid blue;
+        transform: scale(1, 0);
+
+    }
+
+    .main:hover::before {
+        transform: scale(1, 1);
+    }
+
+    img {
+        max-width: 100%;
+        transition: all 0.5s ease;
+    }
+
+    .main:hover img {
+        opacity: 0.4;
+    }
+
+    .txt {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFF;
+        transition: all 0.5s ease;
+        opacity: 0;
+
+    }
+
+    .main:hover .txt {
+        opacity: 1;
+    }
+</style>
+
+<body>
+
+    <br><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="main">
+                    <img src="image/1.jpeg" alt="">
+                    <div class="txt">
+                        <h2>first one</h2>
+                        <button class="btn btn-primary">Click here</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="main">
+                    <img src="image/1.jpeg" alt="">
+                    <div class="txt">
+                        <h2>first one</h2>
+                        <button class="btn btn-primary">Click here</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="main">
+                    <img src="image/1.jpeg" alt="">
+                    <div class="txt">
+                        <h2>first one</h2>
+                        <button class="btn btn-primary">Click here</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
