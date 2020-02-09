@@ -4,6 +4,10 @@ body{
   } 
   
   h2{
-	  background-color: blue;
-	  padding: 10px;
+	background-color: blue;
+	padding: 10px;
   }
+p{
+	color: red;
+	background-color: pink;
+}
